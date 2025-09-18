@@ -163,6 +163,42 @@
             }
         }
 
+    /* Responsive styles for navbar only */
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .auth-buttons {
+    display: none;
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 12px 15px;
+  }
+  
+  img {
+    height: 40px;
+    width: 160px;
+  }
+}
+
+.mobile-menu-btn {
+  display: none;
+}
+
+
        
           /* odisha introduction container */
 
@@ -667,4 +703,5 @@ select {
  
 
   
+
 
