@@ -322,6 +322,94 @@
       transform: rotate(-90deg);
     }
 
+/* Responsive styles for all devices */
+@media (max-width: 1200px) {
+  .swiper, .swiper-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .about-text {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .auth-buttons {
+    display: none;
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .odisha-introduction-container {
+    height: auto;
+    padding: 20px;
+  }
+  
+  .swiper, .swiper-wrapper {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 12px 20px;
+  }
+  
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  
+  .swiper, .swiper-wrapper {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    height: 40px;
+    width: 160px;
+  }
+  
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
+  
+  .section-title p {
+    font-size: 0.9rem;
+  }
+  
+  .about-text {
+    width: 95%;
+    font-size: 0.9rem;
+  }
+  
+  .swiper, .swiper-wrapper {
+    height: 250px;
+  }
+  
+  .swiper-button-next, 
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+/* Mobile menu styles */
+.mobile-menu-btn {
+  display: none;
+}
+
 
 
     /* odisha most search places container */
@@ -703,5 +791,6 @@ select {
  
 
   
+
 
 
