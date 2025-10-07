@@ -73,6 +73,8 @@
         .auth-buttons {
             display: flex;
             gap: 10px;
+                     /* This is the key change: it hides the content without collapsing the space */
+            visibility: hidden;
         }
         
         .auth-btn {
@@ -793,6 +795,7 @@ select {
  
 
   
+
 
 
 
